@@ -78,6 +78,8 @@ var* multiexp_cuda_c(const Scalar *scalar, const Point* point, uint64_t length)
     auto result_ = (var *)malloc(JAC_POINT_LIMBS_ECp_MNT4);
     cudaMemcpy(result_, result, JAC_POINT_LIMBS_ECp_MNT4, cudaMemcpyDeviceToHost);
 
+    cudaFree(scalars);
+    cudaFree(points);
     // print_time(msm, "MSM");
 
     // print_time(beginning, "e2e");

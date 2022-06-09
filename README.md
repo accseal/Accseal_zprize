@@ -1,5 +1,6 @@
 # Accseal_zprize
-This project is used for Zprize
+This project is used for Zprize.
+The main code for Prize "Accelerating MSM Operations on GPU/FPGA" is under /gpu-msm-for-Zprize.
 
 # GZKP-demo
 Zero-knowledge proof is a cryptographic protocol with computational integrity and privacy. It allows one party to convince the other that a certain assertion is correct without providing any useful information. Zero-knowledge proof is widely used in privacy-related applications, such as digital currency, verifiable machine learning, verifiable database outsourcing, etc. The computation process is mainly composed of three modules: parameter generator, prover, and verifier.

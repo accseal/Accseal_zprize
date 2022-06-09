@@ -560,6 +560,11 @@ var *msm_pippenger(cudaStream_t &strm, const var *bases, const var *scalars, siz
   }
   cudaStreamSynchronize(strm);
   // print_time(t, "ReducetheLastWin");
+  cudaFree(wins);
+  cudaFree(wins_start);
+  cudaFree(wins_end);
+  cudaFree(out);
+
   return out2;
 }
 
