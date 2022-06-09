@@ -8,6 +8,7 @@ The computational bottleneck of the zero-knowledge proof system is the prover mo
 
 Copyright (C) 2022,  http://www.accseal.com.
 
+![Overall Framwork of cuFV](./pic/typical-zkSNARK-protocol-workflow.jpg#pic_center)
 
 ## Dependency
  - gpu-groth16-prover-3x is based on commit [ec048](https://github.com/CodaProtocol/gpu-groth16-prover-3x/tree/ec0480380b897deaff77c49d9696115c2a2fd80c)
